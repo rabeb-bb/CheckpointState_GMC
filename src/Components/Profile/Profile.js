@@ -26,7 +26,7 @@ class Profile extends Component {
       removeLikes=()=>{
         this.state.likes>0?
         this.setState({
-          likes: this.state.likes  
+          likes: this.state.likes -1
         }): alert("cannot dislike")
       }
      
